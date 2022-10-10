@@ -20,6 +20,8 @@ function App() {
       //the map function below will loop thru array and display to the screen the todos
       return [...prevItems, inputItem];
     });
+    //After adding an item with the add button you will want the field to be cleared 
+    setInputItem("");
   }
 
   return (
